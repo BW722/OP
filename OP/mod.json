@@ -1,0 +1,21 @@
+{
+	"Name" : "OP",
+	"Description" : "",
+	"Version": "1.0.0",
+	"LoadPriority": 2,
+	"ConVars": [
+		{
+			"Name": "OP_UIDS",
+			"DefaultValue": "1013199872353"
+		}
+	],
+	"Scripts": [
+		{
+			"Path": "OP.nut",
+			"RunOn": "SERVER && MP",
+			"ServerCallback": {
+				"After": "OP_Init"
+			}
+		}
+	]
+}
